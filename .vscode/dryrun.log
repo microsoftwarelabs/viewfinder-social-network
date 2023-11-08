@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/workspaces/viewfinder-social-network'
+make: Leaving directory '/workspaces/viewfinder-social-network'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

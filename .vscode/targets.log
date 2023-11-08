@@ -1,0 +1,361 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Nov  8 12:34:12 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-3.2.2
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/codespace/.vscode-remote
+# environment
+NODE_ROOT = /home/codespace/nvm
+# environment
+NVM_INC = /usr/local/share/nvm/versions/node/v20.8.1/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GRADLE_HOME = /usr/local/sdkman/candidates/gradle/current
+# environment
+rvm_path = /usr/local/rvm
+# environment
+JAVA_ROOT = /home/codespace/java
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /workspaces/viewfinder-social-network
+# environment
+DOCKER_BUILDKIT = 1
+# environment
+PYTHON_ROOT = /home/codespace/.python
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","osLocale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"df5b89e981957e64aca3efb568fd3a77.pt-br","_translationsConfigFile":"/home/codespace/.vscode-remote/data/clp/df5b89e981957e64aca3efb568fd3a77.pt-br/tcf.json","_cacheRoot":"/home/codespace/.vscode-remote/data/clp/df5b89e981957e64aca3efb568fd3a77.pt-br","_resolvedLanguagePackCoreLocation":"/home/codespace/.vscode-remote/data/clp/df5b89e981957e64aca3efb568fd3a77.pt-br/2b35e1e6d88f1ce073683991d1eff5284a32690f","_corruptedFile":"/home/codespace/.vscode-remote/data/clp/df5b89e981957e64aca3efb568fd3a77.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN = app.github.dev
+# environment
+PROMPT_DIRTRIM = 4
+# environment
+_ = /usr/bin/cat
+# environment
+GITHUB_GRAPHQL_URL = https://api.github.com/graphql
+# environment
+RUBY_HOME = /usr/local/rvm/rubies/default
+# environment
+MAVEN_HOME = /usr/local/sdkman/candidates/maven/current
+# environment
+GITHUB_TOKEN = ghu_gefpe46NU89LQ7DekjrkiYhHvMESaG4dkoyU
+# makefile
+MAKEFILE_LIST := 
+# environment
+ENABLE_DYNAMIC_INSTALL = true
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+WALLABY_PRODUCTION = true
+# environment
+CONDA_DIR = /opt/conda
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /vscode/bin/linux-x64/2b35e1e6d88f1ce073683991d1eff5284a32690f
+# environment
+NVS_ROOT = /usr/local/nvs
+# environment
+DOTNET_SKIP_FIRST_TIME_EXPERIENCE = 1
+# environment
+PATH = /vscode/bin/linux-x64/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/home/codespace/.local/bin:/home/codespace/.dotnet:/home/codespace/nvm/current/bin:/home/codespace/.php/current/bin:/home/codespace/.python/current/bin:/home/codespace/java/current/bin:/home/codespace/.ruby/current/bin:/home/codespace/.local/bin:/usr/local/python/current/bin:/usr/local/py-utils/bin:/usr/local/oryx:/usr/local/go/bin:/go/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/local/rvm/gems/default/bin:/usr/local/rvm/gems/default@global/bin:/usr/local/rvm/rubies/default/bin:/usr/local/share/rbenv/bin:/usr/local/php/current/bin:/opt/conda/bin:/usr/local/nvs:/usr/local/share/nvm/current/bin:/usr/local/hugo/bin:/usr/local/dotnet/current:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+# environment
+NVS_OS = linux
+# environment
+DYNAMIC_INSTALL_ROOT_DIR = /opt
+# environment
+CLOUDENV_ENVIRONMENT_ID = 110d8c3a-5003-42aa-896b-001b6bf40e5d
+# environment
+rvm_stored_umask = 0022
+# environment
+GITHUB_SERVER_URL = https://github.com
+# environment
+PIPX_BIN_DIR = /usr/local/py-utils/bin
+# environment
+PIPX_HOME = /usr/local/py-utils
+# environment
+SDKMAN_DIR = /usr/local/sdkman
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+GOPATH = /go
+# environment
+NVM_BIN = /usr/local/share/nvm/versions/node/v20.8.1/bin
+# environment
+HUGO_DIR = /usr/local/hugo/bin
+# environment
+SDKMAN_PLATFORM = linuxx64
+# environment
+NUGET_XMLDOC_MODE = skip
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-988ab4d4-b36c-40a2-a397-9d0b7b83da1e.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CODESPACES = true
+# environment
+CODESPACE_NAME = ominous-space-tribble-r44gv9q5r57j2x65j
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+NVS_DIR = /usr/local/nvs
+# environment
+PHP_PATH = /usr/local/php/current
+# environment
+CONDA_SCRIPT = /opt/conda/etc/profile.d/conda.sh
+# environment
+ORYX_DIR = /usr/local/oryx
+# environment
+JUPYTERLAB_PATH = /home/codespace/.local/bin
+# environment
+rvm_bin_path = /usr/local/rvm/bin
+# environment
+ORYX_SDK_STORAGE_BASE_URL = https://oryx-cdn.microsoft.io
+# environment
+DOTNET_ROOT = /usr/local/dotnet/current
+# default
+.LOADED := 
+# environment
+GEM_HOME = /usr/local/rvm/gems/ruby-3.2.2
+# environment
+RVM_PATH = /usr/local/rvm
+# environment
+NPM_GLOBAL = /home/codespace/.npm-global
+# environment
+NVM_SYMLINK_CURRENT = true
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/codespace
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# environment
+ORYX_PREFER_USER_INSTALLED_SDKS = true
+# environment
+PYTHONIOENCODING = UTF-8
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = codespaces-f706a5
+# environment
+ORYX_ENV_TYPE = vsonline-present
+# environment
+MAKELEVEL := 0
+# environment
+GEM_PATH = /usr/local/rvm/gems/ruby-3.2.2:/usr/local/rvm/gems/ruby-3.2.2@global
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+HUGO_ROOT = /home/codespace/.hugo
+# default
+MAKECMDGOALS := all
+# environment
+IRBRC = /usr/local/rvm/rubies/ruby-3.2.2/.irbrc
+# environment
+SHLVL = 1
+# environment
+RUBY_ROOT = /home/codespace/.ruby
+# environment
+MAVEN_ROOT = /home/codespace/.maven
+# environment
+NODE_RED_HOME = /home/codespace/.vscode-remote/extensions/formulahendry.vscode-node-red-0.2.0/node_modules/node-red
+# environment
+JAVA_HOME = /usr/local/sdkman/candidates/java/current
+# default
+MAKE_VERSION := 4.2.1
+# environment
+GITHUB_CODESPACE_TOKEN = BDQ6KZBXR6RRJA46KU6ZXWDFJQR2DANCNFSM4AFOVBLQ
+# environment
+USER = codespace
+# environment
+NVS_USE_XZ = 1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SHELL_LOGGED_IN = true
+# environment
+GOROOT = /usr/local/go
+# environment
+rvm_version = 1.29.12 (latest)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /vscode/bin/linux-x64/2b35e1e6d88f1ce073683991d1eff5284a32690f
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /usr/local/share/nvm
+# environment
+PYTHON_PATH = /usr/local/python/current
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = https://ms-ceintl.vscode-unpkg.net/MS-CEINTL/vscode-language-pack-pt-BR/1.84.2023110809/extension/translations/extensions/vscode.json-language-features.i18n.json
+# makefile
+SHELL = /bin/sh
+# environment
+rvm_user_install_flag = 0
+# environment
+BROWSER = /vscode/bin/linux-x64/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh
+# environment
+PHP_ROOT = /home/codespace/.php
+# environment
+NVS_HOME = /usr/local/nvs
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+DEBIAN_FLAVOR = focal-scm
+# environment
+GITHUB_USER = start-hobby
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+SDKMAN_CANDIDATES_DIR = /usr/local/sdkman/candidates
+# environment
+GITHUB_API_URL = https://api.github.com
+# environment
+PWD = /workspaces/viewfinder-social-network
+# environment
+LC_ALL = C
+# environment
+INTERNAL_VSCS_TARGET_URL = https://eastus2.online.visualstudio.com
+# environment
+GITHUB_REPOSITORY = microsoftwarelabs/viewfinder-social-network
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /usr/local
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+rvm_loaded_flag = 1
+# default
+ 
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+RAILS_DEVELOPMENT_HOSTS = .githubpreview.dev,.preview.app.github.dev,.app.github.dev
+# environment
+LANG = C
+# environment
+ContainerVersion = 13
+# environment
+MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.2
+# variable set hash-table stats:
+# Load=138/1024=13%, Rehash=0, Collisions=14/160=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1795, inode 1441806): 27 files, no impossibilities.
+
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 329 B / avg = 9 B
+# current buf: size = 8162 B / used = 329 B / count = 35 / avg = 9 B
+
+# strcache performance: lookups = 38 / hit rate = 7%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=1/38=3%
+# Finished Make data base on Wed Nov  8 12:34:12 2023
+
+ 
